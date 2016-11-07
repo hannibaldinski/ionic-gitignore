@@ -1,0 +1,45 @@
+# Specifies intentionally untracked files to ignore when using Git
+# http://git-scm.com/docs/gitignore
+
+node_modules
+<%= appPath %>/bower_components
+*.swp
+*.swo
+*.DS_Store
+*.mode1v3
+*.perspectivev3
+*.pbxuser
+Thumbs.db
+
+*~
+*.sw[mnpcod]
+*.log
+*.tmp
+*.tmp.*
+log.txt
+*.sublime-project
+*.sublime-workspace
+
+.idea/
+.vscode/
+.sass-cache/
+.versions/
+coverage/
+platforms/
+plugins/
+dist/
+node_modules/
+tmp/
+temp/
+$RECYCLE.BIN/
+
+.DS_Store
+Thumbs.db
+UserInterfaceState.xcuserstate
+
+.package.tmp.json
+
+src/themes/version.scss
+scripts/e2e/webpackEntryPoints.json
+scripts/build/e2e-generated-tsconfig.json
+*.css.ts
